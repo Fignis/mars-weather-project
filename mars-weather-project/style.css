@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  place-items: center;
+}
+button {
+  padding: 1rem;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.dashboard {
+  border: 2px solid black;
+  display: flex;
+  width: 100vh;
+  flex-direction: row;
+}
+.panels {
+  list-style: none;
+  display: flex;
+}
+.panels li {
+  border: 1px red solid;
+}
